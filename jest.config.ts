@@ -3,4 +3,5 @@
  * https://jestjs.io/docs/configuration
  */
 
-exp
+export default {
+	// All imported modules in your tests should be m
