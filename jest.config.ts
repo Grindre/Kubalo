@@ -1,2 +1,6 @@
 /*
- * For a detailed explanation regarding each configuration property and type che
+ * For a detailed explanation regarding each configuration property and type check, visit:
+ * https://jestjs.io/docs/configuration
+ */
+
+exp
