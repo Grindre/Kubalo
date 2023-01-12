@@ -11,4 +11,6 @@ export default {
 	// bail: 0,
 
 	// The directory where Jest should store its cached dependency information
-	// cacheDirectory: "/pri
+	// cacheDirectory: "/private/var/folders/35/4k90_5c16cj9kxg9knbhj9g40000gn/T/jest_dx",
+
+	// Automatic
