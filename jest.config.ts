@@ -17,3 +17,6 @@ export default {
 	// clearMocks: false,
 
 	// Indicates whether the coverage information should be collected while executing the test
+	collectCoverage : true,
+
+	// An array of glob patterns indica
