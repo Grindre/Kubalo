@@ -30,4 +30,7 @@ export default {
 	//   "/node_modules/"
 	// ],
 
-	// Indicates which provider should be used to instrument code 
+	// Indicates which provider should be used to instrument code for coverage
+	coverageProvider : "v8",
+
+	// A list of r
