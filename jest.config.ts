@@ -23,4 +23,6 @@ export default {
 	// collectCoverageFrom: undefined,
 
 	// The directory where Jest should output its coverage files
-	coverageDirectory : "coverag
+	coverageDirectory : "coverage",
+
+	// An array of regexp pattern strings used to skip coverage
