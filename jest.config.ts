@@ -37,4 +37,8 @@ export default {
 	// coverageReporters: [
 	//   "json",
 	//   "text",
-	//   "lc
+	//   "lcov",
+	//   "clover"
+	// ],
+
+	// An object that configures min
