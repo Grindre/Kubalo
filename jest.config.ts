@@ -41,4 +41,5 @@ export default {
 	//   "clover"
 	// ],
 
-	// An object that configures min
+	// An object that configures minimum threshold enforcement for coverage results
+	// coverageThresh
