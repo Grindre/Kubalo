@@ -42,4 +42,7 @@ export default {
 	// ],
 
 	// An object that configures minimum threshold enforcement for coverage results
-	// coverageThresh
+	// coverageThreshold: undefined,
+
+	// A path to a custom dependency extractor
+	// d
