@@ -45,4 +45,6 @@ export default {
 	// coverageThreshold: undefined,
 
 	// A path to a custom dependency extractor
-	// d
+	// dependencyExtractor: undefined,
+
+	// Make calling deprecated API
