@@ -51,3 +51,6 @@ export default {
 	// errorOnDeprecated: false,
 
 	// The default configuration for fake timers
+	// fakeTimers: {
+	//   "enableGlobally": false
+	/
