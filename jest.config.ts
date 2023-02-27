@@ -53,4 +53,6 @@ export default {
 	// The default configuration for fake timers
 	// fakeTimers: {
 	//   "enableGlobally": false
-	/
+	// },
+
+	// Force coverage collection from ignored 
