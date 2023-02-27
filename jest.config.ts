@@ -48,4 +48,6 @@ export default {
 	// dependencyExtractor: undefined,
 
 	// Make calling deprecated APIs throw helpful error messages
-	// errorOnDeprecated: fa
+	// errorOnDeprecated: false,
+
+	// The default configuration for fake timers
