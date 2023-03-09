@@ -58,4 +58,7 @@ export default {
 	// Force coverage collection from ignored files using an array of glob patterns
 	// forceCoverageMatch: [],
 
-	// A path to a module which exports an async function that is triggered once before a
+	// A path to a module which exports an async function that is triggered once before all test suites
+	// globalSetup: undefined,
+
+	// A path to a 
