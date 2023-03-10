@@ -61,4 +61,4 @@ export default {
 	// A path to a module which exports an async function that is triggered once before all test suites
 	// globalSetup: undefined,
 
-	// A path to a 
+	// A path to a module which exports an async function that is trigger
