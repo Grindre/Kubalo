@@ -64,4 +64,4 @@ export default {
 	// A path to a module which exports an async function that is triggered once after all test suites
 	// globalTeardown: undefined,
 
-	/
+	// A set of global variables that need to be available in all test e
