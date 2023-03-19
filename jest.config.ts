@@ -67,4 +67,4 @@ export default {
 	// A set of global variables that need to be available in all test environments
 	// globals: {},
 
-	// The maximum amount of workers us
+	// The maximum amount of workers used to run your tests. Can be specified as % or a number
