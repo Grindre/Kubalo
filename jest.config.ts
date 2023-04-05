@@ -77,4 +77,5 @@ export default {
 	//   "node_modules"
 	// ],
 
-	// 
+	// An array of file extensions your modules use
+	// moduleFi
