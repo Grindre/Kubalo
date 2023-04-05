@@ -73,4 +73,8 @@ export default {
 	// sequential: true,	//	Enable sequential execution of test cases
 
 	// An array of directory names to be searched recursively up from the requiring module's location
-	// mod
+	// moduleDirectories: [
+	//   "node_modules"
+	// ],
+
+	// 
