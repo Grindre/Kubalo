@@ -89,3 +89,4 @@ export default {
 	//   "node"
 	// ],
 
+	// A map from regular expressions to module names or to arrays of modul
