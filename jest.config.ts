@@ -78,4 +78,9 @@ export default {
 	// ],
 
 	// An array of file extensions your modules use
-	// moduleFi
+	// moduleFileExtensions: [
+	//   "js",
+	//   "mjs",
+	//   "cjs",
+	//   "jsx",
+	//  
