@@ -83,4 +83,9 @@ export default {
 	//   "mjs",
 	//   "cjs",
 	//   "jsx",
-	//  
+	//   "ts",
+	//   "tsx",
+	//   "json",
+	//   "node"
+	// ],
+
