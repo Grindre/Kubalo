@@ -98,4 +98,5 @@ export default {
 	// Activates notifications for test results
 	// notify: false,
 
-	// An enum that specifies notificatio
+	// An enum that specifies notification mode. Requires { notify: true }
+	// notifyMode: "failure-change",
