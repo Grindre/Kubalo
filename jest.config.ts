@@ -109,3 +109,6 @@ export default {
 
 	// Use this configuration option to add custom reporters to Jest
 	// reporters: undefined,
+
+	// Automatically reset mock state before every test
+	// res
