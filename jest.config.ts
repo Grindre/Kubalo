@@ -116,4 +116,7 @@ export default {
 	// Reset the module registry before running each individual test
 	// resetModules: false,
 
-	// A path to a custom 
+	// A path to a custom resolver
+	// resolver: undefined,
+
+	// Automatically restore 
