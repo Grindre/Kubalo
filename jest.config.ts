@@ -113,4 +113,7 @@ export default {
 	// Automatically reset mock state before every test
 	// resetMocks: false,
 
-	// Reset the module registry before running each indi
+	// Reset the module registry before running each individual test
+	// resetModules: false,
+
+	// A path to a custom 
