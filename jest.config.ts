@@ -119,4 +119,5 @@ export default {
 	// A path to a custom resolver
 	// resolver: undefined,
 
-	// Automatically restore 
+	// Automatically restore mock state and implementation before every test
+	// restoreMock
