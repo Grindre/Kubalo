@@ -130,4 +130,5 @@ export default {
 	//   "<rootDir>"
 	// ],
 
-	// Allows you to use a custo
+	// Allows you to use a custom runner instead of Jest's default test runner
+	// runner: 
