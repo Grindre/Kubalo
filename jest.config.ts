@@ -134,4 +134,6 @@ export default {
 	// runner: "jest-runner",
 
 	// The paths to modules that run some code to configure or set up the testing environment before each test
-	// setup
+	// setupFiles: [],
+
+	// A list of paths to modules that ru
