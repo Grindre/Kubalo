@@ -160,4 +160,6 @@ export default {
 	//   "**/?(*.)+(spec|test).[tj]s?(x)"
 	// ],
 
-	// An array of regexp pattern strings that are matched against all test paths, matched t
+	// An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
+	// testPathIgnorePatterns: [
+	//   "/node_mo
