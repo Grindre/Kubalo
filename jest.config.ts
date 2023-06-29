@@ -160,4 +160,4 @@ export default {
 	//   "**/?(*.)+(spec|test).[tj]s?(x)"
 	// ],
 
-	// An array of regexp pattern 
+	// An array of regexp pattern strings that are matched against all test paths, matched t
