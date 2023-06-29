@@ -165,4 +165,7 @@ export default {
 	//   "/node_modules/"
 	// ],
 
-	// The regexp pattern or array of patterns that Jest u
+	// The regexp pattern or array of patterns that Jest uses to detect test files
+	// testRegex: [],
+
+	// T
