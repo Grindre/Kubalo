@@ -169,4 +169,6 @@ export default {
 	// testRegex: [],
 
 	// This option allows the use of a custom results processor
-	// te
+	// testResultsProcessor: undefined,
+
+	// This option allows use of a c
