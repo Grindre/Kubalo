@@ -171,4 +171,7 @@ export default {
 	// This option allows the use of a custom results processor
 	// testResultsProcessor: undefined,
 
-	// This option allows use of a c
+	// This option allows use of a custom test runner
+	// testRunner: "jest-circus/runner",
+
+	// A map fr
