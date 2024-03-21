@@ -1,4 +1,5 @@
 {
 	"name": "debeem-cipher",
 	"version": "1.0.1",
-	"descr
+	"description": "Cipher kit by DeBeem, Team.",
+	"main": "dist/index.
