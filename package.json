@@ -2,4 +2,7 @@
 	"name": "debeem-cipher",
 	"version": "1.0.1",
 	"description": "Cipher kit by DeBeem, Team.",
-	"main": "dist/index.
+	"main": "dist/index.js",
+	"browser": "dist/index.js",
+	"scripts": {
+		"help": "node src/help.
