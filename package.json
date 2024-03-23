@@ -11,4 +11,9 @@
 		"test": "jest"
 	},
 	"license": "MIT",
-	"file
+	"files": [
+		"src",
+		"dist"
+	],
+	"author": "DeBeem, Team.",
+	"
