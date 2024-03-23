@@ -7,4 +7,8 @@
 	"scripts": {
 		"help": "node src/help.ts",
 		"clean": "rm -rf dist",
-		"build": "npm run clean
+		"build": "npm run clean && tsc",
+		"test": "jest"
+	},
+	"license": "MIT",
+	"file
