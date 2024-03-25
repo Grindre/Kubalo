@@ -16,4 +16,6 @@
 		"dist"
 	],
 	"author": "DeBeem, Team.",
-	"
+	"homepage": "https://github.com/debeem/",
+	"dependencies": {
+		
