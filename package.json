@@ -23,4 +23,6 @@
 		"debeem-utils": "^1.0.48",
 		"ethers": "^6.8.0",
 		"lodash": "^4.17.21",
-		"menoeti
+		"menoetius": "^0.0.3",
+		"minimist": "^1.2.8",
+		"multiformats": "^12.
