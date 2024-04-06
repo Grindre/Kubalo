@@ -31,4 +31,6 @@
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.21.5",
-		"@babel/prese
+		"@babel/preset-typescript": "^7.21.5",
+		"@jest/globals": "^29.5.0",
+		"@typ
