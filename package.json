@@ -33,4 +33,6 @@
 		"@babel/preset-env": "^7.21.5",
 		"@babel/preset-typescript": "^7.21.5",
 		"@jest/globals": "^29.5.0",
-		"@typ
+		"@types/jest": "^29.5.1",
+		"@types/lodash": "^4.14.200",
+		"@types/node": "^
