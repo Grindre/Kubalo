@@ -17,4 +17,6 @@ export class AesBase64
 		try
 		{
 			const aesKey : Uint8Array = this.getAesKeyByPassword( password );
-			const iv : Array<number> = this.getAesIvByPassword( password 
+			const iv : Array<number> = this.getAesIvByPassword( password );
+
+			const textBytes = forge.util.createBuffer( text, 'utf
