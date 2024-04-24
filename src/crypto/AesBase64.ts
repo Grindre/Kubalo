@@ -12,4 +12,8 @@ export class AesBase64
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	static encry
+	static encryptAES( text : string, password : string ) : string
+	{
+		try
+		{
+			cons
