@@ -8,4 +8,8 @@ import { TypeUtil, Uint8Util } from "debeem-utils";
 export class AesBase64
 {
 	/**
-	 *	@param text		{str
+	 *	@param text		{string}
+	 *	@param password		{string}
+	 *	@returns {string}
+	 */
+	static encry
