@@ -21,4 +21,7 @@ export class AesBase64
 
 			const textBytes = forge.util.createBuffer( text, 'utf8' );
 			const cipher = forge.cipher.createCipher( 'AES-CTR', forge.util.createBuffer( aesKey ) );
-			cipher.start( { iv
+			cipher.start( { iv : iv } );
+			cipher.update( textBytes );
+			cipher.finish();
+			con
