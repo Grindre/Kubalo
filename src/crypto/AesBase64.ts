@@ -20,4 +20,5 @@ export class AesBase64
 			const iv : Array<number> = this.getAesIvByPassword( password );
 
 			const textBytes = forge.util.createBuffer( text, 'utf8' );
-			const cipher = forge.cipher.createCipher( 'AES-CTR', f
+			const cipher = forge.cipher.createCipher( 'AES-CTR', forge.util.createBuffer( aesKey ) );
+			cipher.start( { iv
