@@ -25,4 +25,8 @@ export class AesBase64
 			cipher.update( textBytes );
 			cipher.finish();
 			const encrypted = cipher.output;
-			return ( forge.util.encode64
+			return ( forge.util.encode64( encrypted.getBytes() ) );
+		}
+		catch ( err )
+		{
+			co
