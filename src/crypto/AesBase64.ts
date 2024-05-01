@@ -24,4 +24,5 @@ export class AesBase64
 			cipher.start( { iv : iv } );
 			cipher.update( textBytes );
 			cipher.finish();
-			con
+			const encrypted = cipher.output;
+			return ( forge.util.encode64
