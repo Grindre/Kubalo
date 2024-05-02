@@ -29,4 +29,10 @@ export class AesBase64
 		}
 		catch ( err )
 		{
-			co
+			console.error( `encryptAES`, err );
+			return text;
+		}
+	}
+
+	/**
+	 *	
