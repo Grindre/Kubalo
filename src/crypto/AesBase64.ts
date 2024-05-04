@@ -35,4 +35,5 @@ export class AesBase64
 	}
 
 	/**
-	 *	
+	 *	@param encryptedBase64	{string}
+	 *	@param password		{string}
