@@ -37,3 +37,6 @@ export class AesBase64
 	/**
 	 *	@param encryptedBase64	{string}
 	 *	@param password		{string}
+	 *	@returns {string}
+	 */
+	static decryptAES( encryptedBase64 : st
