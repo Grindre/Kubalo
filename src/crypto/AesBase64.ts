@@ -43,4 +43,5 @@ export class AesBase64
 	{
 		try
 		{
-			const aesKey : Uint8A
+			const aesKey : Uint8Array = this.getAesKeyByPassword( password );
+			const iv : Ar
