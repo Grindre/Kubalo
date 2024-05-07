@@ -39,4 +39,8 @@ export class AesBase64
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	static decryptAES( encryptedBase64 : st
+	static decryptAES( encryptedBase64 : string, password : string ) : string
+	{
+		try
+		{
+			const aesKey : Uint8A
