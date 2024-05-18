@@ -47,4 +47,5 @@ export class AesBase64
 			const iv : Array<number> = this.getAesIvByPassword( password );
 
 			const decipher = forge.cipher.createDecipher( 'AES-CTR', forge.util.createBuffer( aesKey ) );
-			decipher.start( { iv : iv 
+			decipher.start( { iv : iv } );
+			decipher.update( forge.util.createBuffer( forge.util.decode
