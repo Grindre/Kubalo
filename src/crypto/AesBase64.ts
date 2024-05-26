@@ -50,4 +50,8 @@ export class AesBase64
 			decipher.start( { iv : iv } );
 			decipher.update( forge.util.createBuffer( forge.util.decode64( encryptedBase64 ) ) );
 			decipher.finish();
-			return forge
+			return forge.util.decodeUtf8( decipher.output.data );
+		}
+		catch ( err )
+		{
+			co
