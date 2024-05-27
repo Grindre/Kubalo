@@ -54,4 +54,6 @@ export class AesBase64
 		}
 		catch ( err )
 		{
-			co
+			console.error( `decryptAES`, err );
+			return encryptedBase64;
+		}
