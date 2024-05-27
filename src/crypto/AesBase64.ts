@@ -57,3 +57,8 @@ export class AesBase64
 			console.error( `decryptAES`, err );
 			return encryptedBase64;
 		}
+	}
+
+	/**
+	 *	@param password		{string}
+	 *	@returns
