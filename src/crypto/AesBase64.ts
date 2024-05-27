@@ -61,4 +61,6 @@ export class AesBase64
 
 	/**
 	 *	@param password		{string}
-	 *	@returns
+	 *	@returns {Uint8Array}
+	 */
+	static getAesKeyByPassword( passwor
