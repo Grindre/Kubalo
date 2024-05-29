@@ -65,4 +65,9 @@ export class AesBase64
 	 */
 	static getAesKeyByPassword( password : string ) : Uint8Array
 	{
-		if ( ! TypeUtil.isNotEmptyString( pass
+		if ( ! TypeUtil.isNotEmptyString( password ) )
+		{
+			throw new Error( `invalid password` );
+		}
+
+		c
