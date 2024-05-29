@@ -63,4 +63,6 @@ export class AesBase64
 	 *	@param password		{string}
 	 *	@returns {Uint8Array}
 	 */
-	static getAesKeyByPassword( passwor
+	static getAesKeyByPassword( password : string ) : Uint8Array
+	{
+		if ( ! TypeUtil.isNotEmptyString( pass
