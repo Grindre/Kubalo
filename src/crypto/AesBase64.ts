@@ -70,4 +70,4 @@ export class AesBase64
 			throw new Error( `invalid password` );
 		}
 
-		c
+		const sha256String : string = sha256( Uint8Util.stringToUint8Ar
