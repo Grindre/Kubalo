@@ -70,4 +70,5 @@ export class AesBase64
 			throw new Error( `invalid password` );
 		}
 
-		const sha256String : string = sha256( Uint8Util.stringToUint8Ar
+		const sha256String : string = sha256( Uint8Util.stringToUint8Array( password ) );
+		const keys : Uint8Array = Uint8Util.hexToUInt8Arra
