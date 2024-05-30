@@ -81,4 +81,6 @@ export class AesBase64
 	 */
 	static getAesIvByPassword( password : string ) : Array<number>
 	{
-		i
+		if ( ! TypeUtil.isNotEmptyString( password ) )
+		{
+			throw new Error( `invalid p
