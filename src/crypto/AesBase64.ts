@@ -76,4 +76,5 @@ export class AesBase64
 	}
 
 	/**
-	 *
+	 *	@param password		{string}
+	 *	@returns {Array<number>
