@@ -83,4 +83,7 @@ export class AesBase64
 	{
 		if ( ! TypeUtil.isNotEmptyString( password ) )
 		{
-			throw new Error( `invalid p
+			throw new Error( `invalid password` );
+		}
+
+		const sha256String : string = sha256( Uint
