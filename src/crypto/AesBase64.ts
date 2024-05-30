@@ -77,4 +77,8 @@ export class AesBase64
 
 	/**
 	 *	@param password		{string}
-	 *	@returns {Array<number>
+	 *	@returns {Array<number>}
+	 */
+	static getAesIvByPassword( password : string ) : Array<number>
+	{
+		i
