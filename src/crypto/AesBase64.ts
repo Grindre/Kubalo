@@ -71,4 +71,9 @@ export class AesBase64
 		}
 
 		const sha256String : string = sha256( Uint8Util.stringToUint8Array( password ) );
-		const keys : Uint8Array = Uint8Util.hexToUInt8Arra
+		const keys : Uint8Array = Uint8Util.hexToUInt8Array( sha256String );
+		return keys.slice( 0, 16 );
+	}
+
+	/**
+	 *
