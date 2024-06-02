@@ -4,4 +4,8 @@ import { AesHex } from "./AesHex";
 /**
  * 	@class
  */
-export cla
+export class AesCrypto
+{
+	passwordPrefix : string = `debeem_password_`;
+
+	const
