@@ -8,4 +8,5 @@ export class AesCrypto
 {
 	passwordPrefix : string = `debeem_password_`;
 
-	const
+	constructor( passwordPrefix ?: string )
+	{
