@@ -10,3 +10,5 @@ export class AesCrypto
 
 	constructor( passwordPrefix ?: string )
 	{
+		if ( _.isString( passwordPrefix ) && ! _.isEmpty( passwordPrefix ) )
+		{
