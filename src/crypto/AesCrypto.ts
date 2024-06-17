@@ -33,3 +33,10 @@ export class AesCrypto
 			catch ( err )
 			{
 				reject( err );
+			}
+		});
+	}
+
+	/**
+	 *	@param encryptedText	{string}
+	 *	@param pa
