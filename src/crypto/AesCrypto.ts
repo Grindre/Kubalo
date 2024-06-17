@@ -27,4 +27,5 @@ export class AesCrypto
 		{
 			try
 			{
-				const jsonString : string = J
+				const jsonString : string = JSON.stringify( object );
+				resolve( this.encrypt( j
