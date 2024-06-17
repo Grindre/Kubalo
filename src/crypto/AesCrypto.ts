@@ -17,4 +17,6 @@ export class AesCrypto
 	}
 
 	/**
-	 *	@param ob
+	 *	@param object		{any}
+	 *	@param password		{string}
+	 *	@returns
