@@ -23,4 +23,8 @@ export class AesCrypto
 	 */
 	public encryptFromObject( object : any, password : string ) : Promise<string>
 	{
-		return new Promise( (
+		return new Promise( ( resolve, reject) =>
+		{
+			try
+			{
+				const jsonString : string = J
