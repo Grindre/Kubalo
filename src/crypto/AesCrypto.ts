@@ -12,3 +12,9 @@ export class AesCrypto
 	{
 		if ( _.isString( passwordPrefix ) && ! _.isEmpty( passwordPrefix ) )
 		{
+			this.passwordPrefix = passwordPrefix;
+		}
+	}
+
+	/**
+	 *	@param ob
