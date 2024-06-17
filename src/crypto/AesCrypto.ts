@@ -28,4 +28,8 @@ export class AesCrypto
 			try
 			{
 				const jsonString : string = JSON.stringify( object );
-				resolve( this.encrypt( j
+				resolve( this.encrypt( jsonString, password ) );
+			}
+			catch ( err )
+			{
+				reject( err );
