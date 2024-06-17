@@ -21,4 +21,6 @@ export class AesCrypto
 	 *	@param password		{string}
 	 *	@returns {Promise<string>}
 	 */
-	public encryptFromObject( object : 
+	public encryptFromObject( object : any, password : string ) : Promise<string>
+	{
+		return new Promise( (
