@@ -39,4 +39,7 @@ export class AesCrypto
 
 	/**
 	 *	@param encryptedText	{string}
-	 *	@param pa
+	 *	@param password		{string}
+	 *	@returns {Promise<*>}
+	 */
+	public decryptToObj
