@@ -42,4 +42,9 @@ export class AesCrypto
 	 *	@param password		{string}
 	 *	@returns {Promise<*>}
 	 */
-	public decryptToObject<T>( encryptedText : string, password : string ) : P
+	public decryptToObject<T>( encryptedText : string, password : string ) : Promise<T>
+	{
+		return new Promise( ( resolve, reject) =>
+		{
+			try
+		
