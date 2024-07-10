@@ -47,4 +47,5 @@ export class AesCrypto
 		return new Promise( ( resolve, reject) =>
 		{
 			try
-		
+			{
+				const decrypted : string = this.decrypt( encryptedText, pa
