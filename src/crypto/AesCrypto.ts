@@ -48,4 +48,6 @@ export class AesCrypto
 		{
 			try
 			{
-				const decrypted : string = this.decrypt( encryptedText, pa
+				const decrypted : string = this.decrypt( encryptedText, password );
+				const object : T = JSON.parse( decrypted );
+				res
