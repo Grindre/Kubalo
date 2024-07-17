@@ -50,4 +50,10 @@ export class AesCrypto
 			{
 				const decrypted : string = this.decrypt( encryptedText, password );
 				const object : T = JSON.parse( decrypted );
-				res
+				resolve( object );
+			}
+			catch ( err )
+			{
+				reject( err );
+			}
+		
