@@ -56,4 +56,9 @@ export class AesCrypto
 			{
 				reject( err );
 			}
-		
+		});
+	}
+
+	/**
+	 *	@param plaintext	{string}
+	 *	@param password		{
