@@ -61,4 +61,7 @@ export class AesCrypto
 
 	/**
 	 *	@param plaintext	{string}
-	 *	@param password		{
+	 *	@param password		{string}
+	 *	@returns {string}
+	 */
+	public encrypt( plaintext : s
