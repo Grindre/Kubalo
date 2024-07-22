@@ -75,4 +75,4 @@ export class AesCrypto
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	public 
+	public decrypt( encryptedText : string, password : string ) :
