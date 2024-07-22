@@ -64,4 +64,6 @@ export class AesCrypto
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	public encrypt( plaintext : s
+	public encrypt( plaintext : string, password : string ) : string
+	{
+		const finalPassword : string = `${ this.pas
