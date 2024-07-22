@@ -75,4 +75,6 @@ export class AesCrypto
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	public decrypt( encryptedText : string, password : string ) :
+	public decrypt( encryptedText : string, password : string ) : string
+	{
+		const finalPassword : string = `${ this.pass
