@@ -66,4 +66,5 @@ export class AesCrypto
 	 */
 	public encrypt( plaintext : string, password : string ) : string
 	{
-		const finalPassword : string = `${ this.pas
+		const finalPassword : string = `${ this.passwordPrefix }-${ String( password ) }`;
+		return AesHex.encr
