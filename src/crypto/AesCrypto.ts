@@ -72,4 +72,7 @@ export class AesCrypto
 
 	/**
 	 *	@param encryptedText	{string}
-	
+	 *	@param password		{string}
+	 *	@returns {string}
+	 */
+	public 
