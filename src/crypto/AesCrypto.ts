@@ -77,4 +77,5 @@ export class AesCrypto
 	 */
 	public decrypt( encryptedText : string, password : string ) : string
 	{
-		const finalPassword : string = `${ this.pass
+		const finalPassword : string = `${ this.passwordPrefix }-${ String( password ) }`;
+		return AesHex.decryptAES( 
