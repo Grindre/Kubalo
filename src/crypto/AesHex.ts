@@ -12,4 +12,5 @@ export class AesHex
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	static encryptAES
+	static encryptAES( text : string, password : string ) : string
+	{
