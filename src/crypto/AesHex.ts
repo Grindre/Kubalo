@@ -9,4 +9,7 @@ export class AesHex
 {
 	/**
 	 *	@param text		{string}
-	 *	@par
+	 *	@param password		{string}
+	 *	@returns {string}
+	 */
+	static encryptAES
