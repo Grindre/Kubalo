@@ -14,3 +14,7 @@ export class AesHex
 	 */
 	static encryptAES( text : string, password : string ) : string
 	{
+		try
+		{
+			const aesKey = this.calcAesKey( password );
+			const 
