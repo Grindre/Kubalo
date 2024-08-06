@@ -19,4 +19,5 @@ export class AesHex
 			const aesKey = this.calcAesKey( password );
 			const aesIv = this.calcAesIv( password );
 
-			const textBytes =
+			const textBytes = forge.util.createBuffer( text, 'utf8' );
+			const cipher = forg
