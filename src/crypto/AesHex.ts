@@ -17,4 +17,6 @@ export class AesHex
 		try
 		{
 			const aesKey = this.calcAesKey( password );
-			const 
+			const aesIv = this.calcAesIv( password );
+
+			const textBytes =
