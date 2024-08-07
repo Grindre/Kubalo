@@ -26,4 +26,5 @@ export class AesHex
 			cipher.finish();
 
 			//	encrypted hex
-			return cipher.output.
+			return cipher.output.toHex();
+			//return ( forge.util.encode64( cipher.output.getBy
