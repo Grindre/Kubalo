@@ -21,4 +21,5 @@ export class AesHex
 
 			const textBytes = forge.util.createBuffer( text, 'utf8' );
 			const cipher = forge.cipher.createCipher( 'AES-CBC', aesKey );
-			cipher.start( { iv : aesIv }
+			cipher.start( { iv : aesIv } );
+			cipher.update( forge.util.createBuffer( textBytes ) 
