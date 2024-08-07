@@ -31,4 +31,10 @@ export class AesHex
 		}
 		catch ( err )
 		{
-			//console.error( `encryptAES`, e
+			//console.error( `encryptAES`, err );
+			return text;
+		}
+	}
+
+	/**
+	 *	@param encryptedHex	
