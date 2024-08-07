@@ -37,4 +37,6 @@ export class AesHex
 	}
 
 	/**
-	 *	@param encryptedHex	
+	 *	@param encryptedHex	{string}
+	 *	@param password		{string}
+	 *	@returns {str
