@@ -27,4 +27,8 @@ export class AesHex
 
 			//	encrypted hex
 			return cipher.output.toHex();
-			//return ( forge.util.encode64( cipher.output.getBy
+			//return ( forge.util.encode64( cipher.output.getBytes() ) );
+		}
+		catch ( err )
+		{
+			//console.error( `encryptAES`, e
