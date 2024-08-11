@@ -39,4 +39,6 @@ export class AesHex
 	/**
 	 *	@param encryptedHex	{string}
 	 *	@param password		{string}
-	 *	@returns {str
+	 *	@returns {string}
+	 */
+	static decryptAES( encryptedHex : string, password : 
