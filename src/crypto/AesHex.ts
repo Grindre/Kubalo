@@ -41,4 +41,8 @@ export class AesHex
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	static decryptAES( encryptedHex : string, password : 
+	static decryptAES( encryptedHex : string, password : string ) : string
+	{
+		try
+		{
+			const aesKey = this.calcAesK
