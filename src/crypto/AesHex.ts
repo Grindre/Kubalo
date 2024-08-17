@@ -45,4 +45,5 @@ export class AesHex
 	{
 		try
 		{
-			const aesKey = this.calcAesK
+			const aesKey = this.calcAesKey( password );
+			const aesIv = this.calcAesIv( passw
