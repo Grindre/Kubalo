@@ -46,4 +46,7 @@ export class AesHex
 		try
 		{
 			const aesKey = this.calcAesKey( password );
-			const aesIv = this.calcAesIv( passw
+			const aesIv = this.calcAesIv( password );
+
+			const byteArray = forge.util.hexToBytes( encryptedHex );
+	
