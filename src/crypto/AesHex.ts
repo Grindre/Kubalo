@@ -50,4 +50,5 @@ export class AesHex
 
 			const byteArray = forge.util.hexToBytes( encryptedHex );
 			const byteStringBuffer = forge.util.createBuffer(byteArray);
-			const decipher 
+			const decipher = forge.cipher.createDecipher( 'AES-CBC', aesKey );
+			decipher.sta
