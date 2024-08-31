@@ -55,4 +55,8 @@ export class AesHex
 			decipher.update( byteStringBuffer );
 			const result = decipher.finish(); // check 'result' for true/false
 
-			return forge.util.decodeUtf8( decipher.output
+			return forge.util.decodeUtf8( decipher.output.data );
+		}
+		catch ( err )
+		{
+			//console.error( `de
