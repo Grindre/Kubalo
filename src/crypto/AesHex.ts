@@ -53,4 +53,6 @@ export class AesHex
 			const decipher = forge.cipher.createDecipher( 'AES-CBC', aesKey );
 			decipher.start( { iv : aesIv } );
 			decipher.update( byteStringBuffer );
-			const result = decipher.finish(); // check 'result' fo
+			const result = decipher.finish(); // check 'result' for true/false
+
+			return forge.util.decodeUtf8( decipher.output
