@@ -59,4 +59,10 @@ export class AesHex
 		}
 		catch ( err )
 		{
-			//console.error( `de
+			//console.error( `decryptAES`, err );
+			return encryptedHex;
+		}
+	}
+
+	/**
+	 *
