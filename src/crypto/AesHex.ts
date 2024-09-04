@@ -78,3 +78,7 @@ export class AesHex
 		const sha256String : string = sha256( Uint8Util.stringToUint8Array( password ) );
 		return sha256String.slice( 0, 16 );
 	}
+
+	/**
+	 *	@param password		{string}
+	 *	@returns {Array<number>}
