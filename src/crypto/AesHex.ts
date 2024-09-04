@@ -70,4 +70,7 @@ export class AesHex
 	 */
 	static calcAesKey( password : string ) : string
 	{
-		if ( ! TypeUtil.i
+		if ( ! TypeUtil.isNotEmptyString( password ) )
+		{
+			throw new Error( `invalid password` );
+		}
