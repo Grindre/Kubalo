@@ -85,4 +85,6 @@ export class AesHex
 	 */
 	static calcAesIv( password : string ) : Array<number>
 	{
-	
+		if ( ! TypeUtil.isNotEmptyString( password ) )
+		{
+			throw new Er
