@@ -75,4 +75,6 @@ export class AesHex
 			throw new Error( `invalid password` );
 		}
 
-		const sha256String : string = sha256( Uint8Util.string
+		const sha256String : string = sha256( Uint8Util.stringToUint8Array( password ) );
+		return sha256String.slice( 0, 16 );
+	}
