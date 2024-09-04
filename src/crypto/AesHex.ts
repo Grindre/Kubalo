@@ -87,4 +87,7 @@ export class AesHex
 	{
 		if ( ! TypeUtil.isNotEmptyString( password ) )
 		{
-			throw new Er
+			throw new Error( `invalid password` );
+		}
+
+		const sha256String : st
