@@ -68,4 +68,6 @@ export class AesHex
 	 *	@param password		{string}
 	 *	@returns {string}
 	 */
-	static 
+	static calcAesKey( password : string ) : string
+	{
+		if ( ! TypeUtil.i
