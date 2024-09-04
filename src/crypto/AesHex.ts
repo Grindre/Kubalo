@@ -82,3 +82,7 @@ export class AesHex
 	/**
 	 *	@param password		{string}
 	 *	@returns {Array<number>}
+	 */
+	static calcAesIv( password : string ) : Array<number>
+	{
+	
