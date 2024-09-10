@@ -91,4 +91,4 @@ export class AesHex
 		}
 
 		const sha256String : string = sha256( Uint8Util.stringToUint8Array( password ) );
-		
+		const aesKey : Uint8Array = Uint8Util.hexToUInt8Array( sh
