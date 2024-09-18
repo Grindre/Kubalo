@@ -7,4 +7,8 @@ Usage:
 
 npm run ${ chalk.bold( 'help' ) }\t\t\t\t\t\t- this usage page
 npm run ${ chalk.bold( 'clean' ) }\t- clean up all dist files and its own directory
-npm run ${ chalk.bold( 'build
+npm run ${ chalk.bold( 'build' ) }\t- compile into a distributable npm package
+
+`
+
+console.log( '%s', usage )
