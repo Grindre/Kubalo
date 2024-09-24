@@ -11,4 +11,4 @@ npm run ${ chalk.bold( 'build' ) }\t- compile into a distributable npm package
 
 `
 
-console.log( '%s', usage )
+console.log( '%s', usage );
