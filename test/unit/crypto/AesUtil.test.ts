@@ -71,3 +71,62 @@ describe( "AesUtil", () =>
 			console.log( `encrypted :`, AesBase64Encrypted );
 			console.log( `decrypted :`, AesBase64Decrypted );
 			expect( typeof AesBase64Encrypted ).toBe( 'string' );
+			expect( typeof AesBase64Decrypted ).toBe( 'string' );
+			expect( AesBase64Encrypted.length ).toBeGreaterThan( 0 );
+			expect( AesBase64Encrypted.length ).toBeGreaterThan( 0 );
+			expect( AesBase64Encrypted.length ).toBeGreaterThan( AesBase64Decrypted.length );
+			expect( AesBase64Decrypted ).toBe( message );
+
+			//	AesHex
+			const AesHexEncrypted : string = AesHex.encryptAES( message, aliceSharedSecret );
+			const AesHexDecrypted : string = AesHex.decryptAES( AesHexEncrypted, aliceSharedSecret );
+			console.log( `encrypted :`, AesHexEncrypted );
+			console.log( `decrypted :`, AesHexDecrypted );
+			expect( typeof AesHexEncrypted ).toBe( 'string' );
+			expect( typeof AesHexDecrypted ).toBe( 'string' );
+			expect( AesHexEncrypted.length ).toBeGreaterThan( 0 );
+			expect( AesHexEncrypted.length ).toBeGreaterThan( 0 );
+			expect( AesHexEncrypted.length ).toBeGreaterThan( AesHexDecrypted.length );
+			expect( AesHexDecrypted ).toBe( message );
+
+
+
+
+// 			const password = `my-password`;
+// 			//const key = forge.random.getBytesSync( 16 );
+// 			//const iv = forge.random.getBytesSync( 16 );
+// 			const key = AesUtil.calcAesKey( password );
+// 			const iv = AesUtil.calcAesIv( password );
+//
+// 			const someBytes = forge.util.createBuffer( message, 'utf8' );
+//
+// 			// encrypt some bytes using CBC mode
+// 			// (other modes include: ECB, CFB, OFB, CTR, and GCM)
+// 			// Note: CBC and ECB modes use PKCS#7 padding as default
+// 			const cipher = forge.cipher.createCipher( 'AES-CBC', key );
+// 			cipher.start( { iv : iv } );
+// 			cipher.update( forge.util.createBuffer( someBytes ) );
+// 			cipher.finish();
+// 			const encrypted = cipher.output;
+// 			//const encryptedBytes = _.clone( encrypted.getBytes() );
+// 			//const encryptedBase64 = forge.util.encode64( encrypted.getBytes() );
+// 			//const encryptedBase64 = btoa( encrypted.getBytes() );
+// 			//console.log( `encryptedBase64 :`, encryptedBase64 );
+//
+// 			// outputs encrypted hex
+// 			const encryptedHex = encrypted.toHex();
+// 			console.log( `encrypted.toHex() :`, encryptedHex );
+//
+//
+// 			// 将十六进制字符串转换为字节数组
+// 			const byteArray = forge.util.hexToBytes(encryptedHex);
+//
+// // 创建 ByteStringBuffer 对象
+// 			const byteStringBuffer = forge.util.createBuffer(byteArray);
+// // decrypt some bytes using CBC mode
+// // (other modes include: CFB, OFB, CTR, and GCM)
+// 			const decipher = forge.cipher.createDecipher( 'AES-CBC', key );
+// 			decipher.start( { iv : iv } );
+// 			decipher.update( byteStringBuffer );
+// 			const result = decipher.finish(); // check 'result' for true/false
+//
