@@ -130,3 +130,9 @@ describe( "AesUtil", () =>
 // 			decipher.update( byteStringBuffer );
 // 			const result = decipher.finish(); // check 'result' for true/false
 //
+// 			const decryptedString = forge.util.decodeUtf8( decipher.output.data );
+// 			console.log( `decipher.output (${ result }):`, decryptedString );
+
+		} );
+	} );
+} );
